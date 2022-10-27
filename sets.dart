@@ -1,6 +1,11 @@
 void main() {
-  var name = <String>{'riyaskhan'};
-  print("Output of first set: $name");
-  Set<String> age = {'23'};
-  print("Output of second set: age");
+  var a = {2, 3};
+  var b = {3, 4};
+  var c = (a.union(b));
+  var sum = 0;
+  print(c);
+  for (var value in c) {
+    sum += value;
+  }
+  print(sum);
 }

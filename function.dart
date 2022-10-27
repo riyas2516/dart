@@ -1,8 +1,8 @@
 void main() {
-  printMsg();
-  print(test());
+  dis("riyas", "khan");
 }
 
-printMsg() => print("hello");
-
-int test() => 123;
+void dis(var a, var b) {
+  var c = a + "" + b;
+  print("${c}");
+}
